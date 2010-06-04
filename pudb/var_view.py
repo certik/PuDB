@@ -24,7 +24,7 @@ class FrameVarInfo(object):
 class InspectInfo(object):
     def __init__(self):
         self.show_detail = False
-        self.display_type = "type"
+        self.display_type = "str"
         self.highlighted = False
         self.repeated_at_top = False
         self.show_private_members = False
