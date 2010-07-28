@@ -80,21 +80,21 @@ def get_palette(may_use_fancy_formats):
         ("dialog title", add_setting("white", "bold"), "dark cyan"),
 
         # highlighting
-        ("source", "yellow", "dark blue"),
+        ("source", "black", "default"),
         ("focused source", "black", "dark green"),
         ("highlighted source", "black", "dark magenta"),
         ("current source", "black", "dark cyan"),
         ("current focused source", "white", "dark cyan"),
         ("current highlighted source", "white", "dark cyan"),
 
-        ("keyword", add_setting("white", "bold"), "dark blue"),
-        ("kw_namespace", add_setting("white", "bold"), "dark blue"),
-        ("literal", "light magenta", "dark blue"),
-        ("string", "light magenta", "dark blue"),
-        ("punctuation", "light gray", "dark blue"),
-        ("comment", "light gray", "dark blue"),
-        ("classname", "yellow", "dark blue"),
-        ("funcname", "yellow", "dark blue"),
+        ("keyword", "brown", "default"),
+        ("kw_namespace", "dark magenta", "default"),
+        ("literal", "black", "default"),
+        ("string", "dark red", "default"),
+        ("punctuation", "black", "default"),
+        ("comment", "dark blue", "default"),
+        ("classname", "dark cyan", "default"),
+        ("funcname", "dark cyan", "default"),
 
         ]
 
