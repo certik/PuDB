@@ -106,8 +106,12 @@ def format_source(debugger_ui, lines, breakpoints):
                 t.Token: "source",
                 t.Keyword: "keyword",
                 t.Literal: "literal",
+                t.String: "string",
                 t.Punctuation: "punctuation",
                 t.Comment: "comment",
+                t.Name.Class: "classname",
+                t.Name.Function: "funcname",
+                t.Keyword.Namespace: "kw_namespace",
                 }
 
         class UrwidFormatter(Formatter):

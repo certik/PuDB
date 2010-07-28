@@ -88,9 +88,13 @@ def get_palette(may_use_fancy_formats):
         ("current highlighted source", "white", "dark cyan"),
 
         ("keyword", add_setting("white", "bold"), "dark blue"),
+        ("kw_namespace", add_setting("white", "bold"), "dark blue"),
         ("literal", "light magenta", "dark blue"),
+        ("string", "light magenta", "dark blue"),
         ("punctuation", "light gray", "dark blue"),
         ("comment", "light gray", "dark blue"),
+        ("classname", "yellow", "dark blue"),
+        ("funcname", "yellow", "dark blue"),
 
         ]
 
